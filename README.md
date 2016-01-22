@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+include_recipe "omori_gohan"
+```
+
+## Example
+### Download and install deb file
+```ruby
+download_and_install_deb "vagrant" do
+  url     "https://releases.hashicorp.com/vagrant/#{node[:vagrant][:version]}/vagrant_#{node[:vagrant][:version]}_x86_64.deb"
+  version node[:vagrant][:version]
+end
+```
 
 ## Development
 
