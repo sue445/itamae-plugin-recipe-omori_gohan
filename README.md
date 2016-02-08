@@ -36,6 +36,11 @@ download_and_install_deb "vagrant" do
 end
 ```
 
+* `name` : package name (**requirement**)
+* `url` : package url (**requirement**)
+* `version` : version (optional)
+* `src_dir` : directory for package download (default is `/usr/local/src`)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
