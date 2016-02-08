@@ -1,13 +1,14 @@
 # Download and install deb file
 define :download_and_install_deb, version: nil, url: nil, src_dir: "/usr/local/src" do
+  raise "name is requirement" unless params[:name]
+  raise "url is requirement" unless params[:url]
+
   basename = File.basename(params[:url])
 
-  name     = params[:name]
-  version  = params[:version]
-  src_dir  = params[:src_dir]
+  src_dir = params[:src_dir]
 
-  check_command = "dpkg -l | grep #{name}"
-  check_command << " | grep #{version}" if version
+  check_command = "dpkg -l | grep '#{params[:name]}'"
+  check_command << " | grep '#{params[:version]}'" if params[:version]
 
   [
     "wget #{params[:url]} -O #{basename}",
