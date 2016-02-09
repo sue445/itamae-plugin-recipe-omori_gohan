@@ -32,8 +32,14 @@ include_recipe "omori_gohan"
 download_and_install_deb "vagrant" do
   url     "https://releases.hashicorp.com/vagrant/#{node[:vagrant][:version]}/vagrant_#{node[:vagrant][:version]}_x86_64.deb"
   version node[:vagrant][:version]
+  src_dir "/usr/local/src"
 end
 ```
+
+* `name` : package name (**requirement**)
+* `url` : package url (**requirement**)
+* `version` : version (optional)
+* `src_dir` : directory for package download (default is `/usr/local/src`)
 
 ## Development
 
