@@ -1,8 +1,6 @@
 # Itamae::Plugin::Recipe::OmoriGohan
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/itamae/plugin/recipe/omori_gohan`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+itamae tiny recipes
 
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan)
 [![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan)
