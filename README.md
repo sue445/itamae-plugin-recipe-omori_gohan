@@ -4,6 +4,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+[![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan)
 [![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan)
 
 ## Installation
