@@ -5,6 +5,8 @@ itamae tiny recipes
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan)
 [![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan)
 
+[![wercker status](https://app.wercker.com/status/766847e4b2c442049f1d0c71ecee6de1/m/master "wercker status")](https://app.wercker.com/project/bykey/766847e4b2c442049f1d0c71ecee6de1)
+
 ## Installation
 
 Add this line to your application's Gemfile:
