@@ -26,7 +26,7 @@ build:
 
         - script:
             name: install bundler
-            code: gem install bundler -v 1.10.6
+            code: gem install bundler -v 1.10.6 --no-document
 
         - bundle-install:
             jobs: 4
