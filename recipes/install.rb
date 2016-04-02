@@ -4,5 +4,5 @@ case node[:platform]
 when "debian"
   include_recipe "./debian"
 when "redhat"
-  # TODO
+  include_recipe "./centos"
 end
