@@ -10,6 +10,8 @@ define :download_and_install_deb, version: nil, url: nil, src_dir: "/usr/local/s
   check_command = "dpkg -l | grep '#{params[:name]}'"
   check_command << " | grep '#{params[:version]}'" if params[:version]
 
+  package "wget"
+
   [
     "wget #{params[:url]} -O #{basename}",
     "dpkg -i #{basename}"
