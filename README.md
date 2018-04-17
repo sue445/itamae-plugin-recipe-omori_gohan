@@ -3,6 +3,7 @@
 itamae tiny recipes
 
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-omori_gohan)
+[![Build Status](https://travis-ci.org/sue445/itamae-plugin-recipe-omori_gohan.svg?branch=master)](https://travis-ci.org/sue445/itamae-plugin-recipe-omori_gohan)
 [![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-omori_gohan)
 
 ## Installation
