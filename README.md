@@ -56,6 +56,20 @@ end
 * `version` : version (optional)
 * `src_dir` : directory for package download (default is `/usr/local/src`)
 
+### `itamae_current_user`
+When using `itamae ssh`, `itamae_current_user` returns ssh user name
+
+```ruby
+node[:current_user] = itamae_current_user
+
+directory "/home/#{node[:current_user]}" do
+  mode  "755"
+  owner node[:current_user]
+end
+```
+
+see [lib/itamae/plugin/recipe/omori_gohan/methods/itamae_current_user.rb](lib/itamae/plugin/recipe/omori_gohan/methods/itamae_current_user.rb)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

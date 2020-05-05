@@ -6,3 +6,5 @@ when "debian"
 when "redhat"
   include_recipe "./centos"
 end
+
+include_recipe "./common"
